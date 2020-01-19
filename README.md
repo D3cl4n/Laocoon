@@ -30,4 +30,4 @@ A lot of problem solving and network programming.
 ## What's next for Laocoon
 
 - Implement automation for other privilege escalation vectors
-- Refine the search for exploits more to reduce runtime
+- Refine the search for exploits more to reduce runtime.
