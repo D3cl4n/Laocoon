@@ -17,7 +17,7 @@ We used preexisting tools and parsed and combined their functionalities to creat
 ## Challenges we ran into
 The machine that we attacked for testing has lots of outdated software which made it difficult to find ways to execute certain commands on the system. There were many commands that did not exist, or were not new enough to work properly.
 We also had lots of problems sending the script to the machine that was responsible for compiling and running the exploits. This python script could not be sent directly through sockets because of it's formatting and we could not use a tool like `wget` to download it from a webserver, so we had to figure out a way to send it in another format.
-We first tried encoding the script in base64, but the machine did not have any way to decode it. We found that if we encoded the data in hex, we could decode it using `echo -e | cat`.
+We first tried encoding the script in base64, but the machine did not have any way to decode it. We found that if we encoded the data in hex, we could decode it using `echo -e <hex>| cat`.
 
 ## Accomplishments that we're proud of
 
