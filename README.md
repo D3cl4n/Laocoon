@@ -2,6 +2,9 @@
 
 This script was made for the [Hack@WPI 2020](http://hack.wpi.edu) hackathon.
 
+## Usage
+Run script.py with python3, enter a port, and connect to it with a reverse shell from the victim's machine.
+
 ## Inspiration
 During penetration testing, after initial access is gained, privilege escalation must be performed to gain "root" privileges on the system. This can be done using kernel exploits if the Linux kernel is out of date. We decided that it would be a good idea to automate the process of looking for kernel exploits and testing them on a compromised system.
 
